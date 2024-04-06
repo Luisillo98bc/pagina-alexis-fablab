@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ASSIGNMENT 10</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="assigment10.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.js"
+      integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link href="https://mydoup.com/css/design.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header>
+      
+      <a href="https://fablab.ucontinental.edu.pe/conocefablabuc/"><img src="img/logo fablab blanco-01.png" alt=""></a>
+     
+      <div id="links">
+          <a href="../index.html">HOME</a>
+          <a href="../about/about.html">ABOUT ME</a>
+          <a href="../index.html#separador1">ASSIGNMENTS</a>
+          <a href="../agreement/agreement.html">AGREEMENT</a>
+          <a href="../finalProject/final.html">FINAL PROJECT</a>
+          <ion-icon id="cerrar" name="close-outline"></ion-icon>
+      </div> 
+      <div id="mobile">
+          
+          <ion-icon id="bar" name="reorder-four-outline" ></ion-icon>
+          
+      </div>  
+      
+  </header>
+
+    <section class="encabezado">
+      <div class="caratula">
+          <div class="container-navigation-button">
+              <span class="btn-go" onclick="window.location.href='assigment9.html'">
+                  Previous week
+              </span>
+          
+              <span class="btn-go" onclick="window.location.href='assigment1.html'">
+                  Next week
+              </span>
+          </div>
+            <br>
+            <br>
+          <h1>WEEK 10</h1>
+          <h2>MECHANICAL DESIGN & MACHINE DESIGN</h2>
+      </div>
+  </section>
+    
+    <div class="main-container">
+        
+        <div class="parrafo">
+            <br />
+            
+            <h1><strong>Welcome to Week 10</strong></h1>
+            <h3><strong>Mechanical design & machine design</strong></h3>
+            <p>Hey! now we will learn about Mechanical design and machine design, for this week we have the following group and individual assignments:</p>
+
+            <h4>Mechanical Design (part 1 of 2)</h4>
+
+            <ul>
+                <li>Group assignment:</li>
+                    <p>o	Design a machine that includes mechanism + actuation + automation + application.</p>
+                    <p>o	Build the mechanical parts and operate it manually.</p>
+                    <p>o	Document the group project.</p>
+                <li>Individual assignment:</li>
+                    <p>o	Document your individual contribution</p>
+            </ul>
+            <h4>Machine Design (part 2 of 2)</h4>
+            <ul>
+                <li>Group assignment:</li>
+
+                    <p>o	Actuate and automate your machine</p>
+                    <p>o	o	Document the group project</p>
+
+                <li>Individual assignment:</li>
+                    <p>o	Document your individual contribution.</p>
+            </ul>
+            <p>We met as a team to be able to define what machine we would develop. Due to the mining impact in the city of Arequipa, we opted for a robotic arm capable of innovating mining maintenance, in coating and welding of mantles of a mining crusher.</p>
+
+            <img src="../assigments/img-10/img1.png" width="700" />
+
+            <p>Here we can see the first sketch of the idea we had, the complete project you can review here: <a href="https://fabacademy.org/2024/labs/ucontinental/Group-Assignments.html">(Link: https://fabacademy.org/2024/labs/ucontinental/Group-Assignments.html), </a> now join me to develop the mechanical part of this project.</p>
+            <p>First let's analyze the work that will be carried out, which is welding and coating, the movement it should have will be on an inclined base, so the end effector should have rotational mobility, I will take the following image as a reference, and the part of my colleague Alcides Rios  who is in charge from the conceptual part.</p>
+            <img src="../assigments/img-10/img2.png" width="700" />
+            
+            <p>
+                From the conceptual design I began to make the solids in the INVENTOR.
+            </p>
+            
+            <img src="../assigments/img-10/img3.png" width="700" />
+            <img src="../assigments/img-10/img4.png" width="700" />
+            <p>
+                After designing each piece, we begin with the assembly of each piece until we achieve the final arm.
+            </p>
+            <img src="../assigments/img-10/img5.jpg" width="700" />
+            <p>The base will be rotating and will have 4 rods that will support the vertical travel like the endless screw.</p>
+            <img src="../assigments/img-10/img6.jpg" width="700" />
+            <img src="../assigments/img-10/img7.jpg" width="700" />
+            <p>On the central arm there will be a pulley system for the rotary movement of the second arm</p>
+            <img src="../assigments/img-10/img8.jpg" width="700" />
+            <p>and finally the end effector which will have a rotary movement for the various angles of inclination</p>
+            <img src="../assigments/img-10/img9.jpg" width="700" />
+            <p>Well now let's be clear about the dimensions of the robotic arm since this will help us to have the values of L1, L2 and L3, which will be fundamental for the direct and inverse kinematic analysis, which will be used for the control system.</p>
+            <img src="../assigments/img-10/img10.jpg" width="700" />
+            <p>Now let's carry out your kinematic analyses, taking into account that it will be a RPRR, revolutionary, prismatic, revolutionary, revolutionary robotic arm.</p>
+            <img src="../assigments/img-10/img11.jpg" width="700" />
+            <p>Once we have the homogeneous transformation matrix, we multiply to obtain the matrix of each joint.</p>
+            <img src="../assigments/img-10/img12.jpg" width="700" />
+            <p>We multiply all the joints to obtain the transformation matrix from the first to the last coordinate system.</p>
+            <img src="../assigments/img-10/img13.png" width="700" />
+            <p>Below is the matrix obtained for a configuration in which all joint coordinates have a null value.</p>
+            <p>This process is used to establish a homogeneous transformation matrix that describes the position and orientation of a reference system with respect to the previous one.</p>
+            <p>Well, now let's do some analysis of the mechanical design of the robot, let's start by doing a movement test of each joint.</p>
+
+            <div class="video">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/d2PZp7xHe_g?si=rJCiqEhkUjiqO9Uo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                
+            </div>
+            <p>Then we will do a resistance test with a 1kg weight on the surface of each joint, taking into account that it is an approximate value of the weight of the end effector.</p>
+            <img src="../assigments/img-10/img14.png" width="700" />
+            <div class="video">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/E35wPWYfRkE?si=OyNK1BuFe3ahYvDw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                
+            </div>
+            <p>As we can see, there is no considerable deformation or displacement due to weight within the joints.</p>
+            <p>We already have the parts ready and the necessary calculations to be able to start printing and building. It is worth mentioning that the analyzes were contemplated with ABS as manufacturing material.</p>
+            <p>The digital manufacturing files can be found here, and remember that you can see the entire project on the Fablab UC laboratory page</p>
+            <li>
+                <a class="button-download" target="_blank" href="../assigments/Archivos10.zip">
+                Download Here
+              </a>
+            </li>
+            <p>See you next Week.</p>
+        
+        </div>
+    </div>
+
+    <div>
+      <div class="redes">
+        <h1>SOCIAL MEDIA</h1>
+      </div>
+    </div>
+    <div class="logos">
+      <a
+        href="https://www.linkedin.com/in/jos%C3%A9-alexis-del-%C3%A1guila-ramos-a05312157?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
+        target="_blank"
+        class="linkedin"
+      >
+        <i class="fa-brands fa-linkedin"></i>
+      </a>
+      <a
+        href="https://www.facebook.com/jose.delaguilaramos?mibextid=eQY6cl"
+        target="_blank"
+        class="facebook"
+      >
+        <i class="fa-brands fa-facebook"></i>
+      </a>
+      <a
+        href="https://gitlab.fabcloud.org/jose-aguila"
+        target="_blank"
+        class="gitlab"
+        ><i class="fa-brands fa-gitlab"></i
+      ></a>
+      <a
+        href="https://www.instagram.com/alexis_jose_17?igsh=MTgxbW5yNDVrZjd3dA%3D%3D&utm_source=qr"
+        target="_blank"
+        class="instagram"
+        ><i class="fa-brands fa-instagram"></i
+      ></a>
+    </div>
+    <footer class="anuncios">
+      <p>
+        Copyright 2024 Alexis del Aguila - Creative Commons Attribution Non
+        Commercial
+      </p>
+      <p>
+        Source code hosted at
+        <a
+          href="https://gitlab.fabcloud.org/academany/fabacademy/2024/labs/lima/students/hans-moncca"
+          >fabcloud/fabacademy/2024/jose-aguila</a
+        >
+      </p>
+    </footer>
+    <div>
+      <button id="btn-scroll-top" onclick="scrollToTop()">
+        <i class="fa-solid fa-arrow-up"></i>
+      </button>
+
+      <script>
+        window.onscroll = function () {
+          scrollFunction();
+        };
+
+        function scrollFunction() {
+          var btnScrollTop = document.getElementById("btn-scroll-top");
+          if (
+            document.body.scrollTop > 20 ||
+            document.documentElement.scrollTop > 20
+          ) {
+            btnScrollTop.style.display = "block";
+          } else {
+            btnScrollTop.style.display = "none";
+          }
+        }
+
+        function scrollToTop() {
+          document.body.scrollTop = 0;
+          document.documentElement.scrollTop = 0;
+        }
+      </script>
+    </div>
+
+    <script type = "module"  src = "https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"> </script>
+    <script  nomodule  src = "https://unpkg .com/ionicons@7.1.0/dist/ionicons/ionicons.js"> </script>
+    <script src="../assigments/assigment5.js"></script>
+  </body>
+</html>

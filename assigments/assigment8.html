@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ASSIGNMENT 8</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="assigment8.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.js"
+      integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link href="https://mydoup.com/css/design.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header>
+      
+      <a href="https://fablab.ucontinental.edu.pe/conocefablabuc/"><img src="img/logo fablab blanco-01.png" alt=""></a>
+     
+      <div id="links">
+          <a href="../index.html">HOME</a>
+          <a href="../about/about.html">ABOUT ME</a>
+          <a href="../index.html#separador1">ASSIGNMENTS</a>
+          <a href="../agreement/agreement.html">AGREEMENT</a>
+          <a href="../finalProject/final.html">FINAL PROJECT</a>
+          <ion-icon id="cerrar" name="close-outline"></ion-icon>
+      </div> 
+      <div id="mobile">
+          
+          <ion-icon id="bar" name="reorder-four-outline" ></ion-icon>
+          
+      </div>  
+      
+  </header>
+
+    <section class="encabezado">
+      <div class="caratula">
+          <div class="container-navigation-button">
+              <span class="btn-go" onclick="window.location.href='assigment7.html'">
+                  Previous week
+              </span>
+          
+              <span class="btn-go" onclick="window.location.href='assigment9.html'">
+                  Next week
+              </span>
+          </div>
+            <br>
+            <br>
+          <h1>WEEK 8</h1>
+          <h2>ELECTRONICS DESIGN </h2>
+      </div>
+  </section>
+    
+    <div class="main-container">
+        
+        <div class="parrafo">
+            <br />
+            
+            <h1><strong>Welcome to Week 8</strong></h1>
+            <h3><strong>Electronics Design </strong></h3>
+            <p>Hey! now we will learn about Electronics Design .</p>
+
+            <p>
+                Electronic design is the systematic process through which we create integrated circuits tailored to perform specific functions by leveraging electronic components.
+            </p>
+            <p>
+                First, as a group assignment, we will use test equipment, which we will see in the following image as well as the electronic components that we will use.
+            </p>
+            <img src="../assigments/img-8/imagen1.jpg" width="700" />
+            
+            <h4>
+                We will commence with testing using a multimeter.
+            </h4>
+            <p>To understand the functionality of the multimeter, we will initially examine the individual components before applying it to the board made during week 4 of electronic production. Our initial focus will be to determine the polarity of the Led.</p>
+            <img src="../assigments/img-8/imagen2.jpg" width="700" />
+            
+            <p>
+                What we must remember is to find out which side of each Led is negative and which is positive. For Dip Leds, the shortest leg is always negative, while the longest is positive, for SMD Leds, there is a green mark indicating the negative side; the opposite side is positive. 
+            </p>
+            <p>
+                To check the Leds we will use the "DIODE TEST" option of the multimeter. This configuration helps us verify if the leds are working correctly or if they are already inoperative.
+            </p>
+            <img src="../assigments/img-8/imagen3.jpg" width="700" />
+            <br>
+            <p>
+                Here's the test we conducted with the SMD LED, demonstrating that its polarity is correct and it can be illuminated using our multimeter.
+            </p>
+
+        
+            <div class="video">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/N3olZA1QMhE?si=mRSbXxyTmOVqTdpD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                
+            </div>
+            <p>Next, we will proceed to test the resistors to determine their resistance values using the multimeter. To measure the resistance of our components, we will select the "Ω" symbol on the multimeter, which represents resistance. This configuration allows us to calculate the values accurately.</p>
+            <div class="video">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/xAwR7xAPJRk?si=GFZhXrsTCB0DtBnP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                
+            </div>
+            <p>Now, we'll conduct a continuity test on the circuit board created during week 4 of the Fab Academy. It's crucial to ensure that the tracks on the board have continuity, indicating that they are properly connected. Using the multimeter, we'll select the continuity symbol. When the multimeter emits a sound, it confirms continuity, signifying that the components are connected. If no sound is emitted, it indicates a lack of continuity, suggesting that the components are not connected.</p>
+            <div class="video">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/9ZRKQsnnez8?si=i0KbkrudfsQM7yv1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                
+            </div>
+
+            <p>Now we will use the OSCILLOSCOPE that we have, we will test it on the board, taking as a reading the voltage output it produces, now we will see it on the equipment screen</p>
+            <div class="video">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/qPdyQcwfkHE?si=tuApqOo-cbX27FRx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                
+            </div>
+
+            <h4>Ok now let's move on to the individual assignment…</h4>
+            <p>First I started thinking about what I could develop, my head was spinning with several ideas, however walking after work I saw a little boy playing with one of the toys that he wanted as a child but couldn't have it because I had most of my free time. He was available for additional readings and classes at school.</p>
+
+            <p>This toy is a pinball, which came with various games such as Tetris, cars, snake, among others.</p>
+            <img src="../assigments/img-8/imagen4.png" width="700" />
+
+            <h4>I still remember when they came with their watch and calculator, what times.......</h4>
+            <p>So, let's get to work! To achieve this idea, we will work with the Easy Eda program, in which we will develop the board, placing a screen in this case OLED, some buttons and of course a joystick to make it modern, with the help of the Seeed xiao RP2040.</p>
+            <img src="../assigments/img-8/imagen5.png" width="700" />
+            <p>Here we will be shown the components that we use, and we must position and connect them.</p>
+            <img src="../assigments/img-8/imagen6.png" width="700" />
+
+            <h4>Your 3d model would look like this:</h4>
+            <img src="../assigments/img-8/imagen7.png" width="700" />
+            <p>We will also make a small plate with 4 buttons that will help us in the various games that we are going to simulate.</p>
+            <img src="../assigments/img-8/imagen8.png" width="700" />
+            <img src="../assigments/img-8/imagen9.png" width="700" />
+            <p>We export to MODS CE:</p>
+            <img src="../assigments/img-8/imagen10.png" width="700" />
+            <img src="../assigments/img-8/imagen11.png" width="700" />
+            <p>Also the button plate:</p>
+            <img src="../assigments/img-8/imagen12.png" width="700" />
+            <img src="../assigments/img-8/imagen13.png" width="700" />
+
+            <p>After configuring and verifying our files in MODS CE, we will proceed to mill our board. We'll start by milling the traces followed by the perimeter of the board.</p>
+            <h4>Let's see how our plate turns out</h4>
+            <div class="video">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/LtWdg4YZkGo?si=qK_u6oQhXBm6y3xB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+            <p>Ready, we already have the plates and they look good, let's continue with the soldering process</p>
+            <img src="../assigments/img-8/imagen14.jpg" width="700" />
+            <h4>and by the magic of the academy..........</h4>
+            <p>We already have our plate ready and it only cost us a couple of burns on our fingers.</p>
+            <img src="../assigments/img-8/imagen15.jpg" width="700" />
+            <img src="../assigments/img-8/imagen16.jpg" width="700" />
+            <p>It looked great, now let's design a case for our pinball, I will make it transparent so you can see the components</p>
+            <img src="../assigments/img-8/imagen17.jpg" width="700" />
+            <p>It looks good but let's cut it, I want to assemble it and see how great it looks.</p>
+            <img src="../assigments/img-8/imagen18.jpg" width="700" />
+            <p>The dark ones are in the acrylic protector. When we finish assembling, we remove it and you will see that it looks very good.</p>
+
+            <img src="../assigments/img-8/imagen19.jpg" width="700" />
+
+            <p>I managed to emulate the flappy game on the board. I will leave the files here, since there are several lines, it was somewhat complicated to find help to develop it until I saw Chinese tutorials, but it was done! Let's see how the game turned out</p>
+            <div class="video">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/NxJrocX_TZI?si=ALA3XqMLkfgYhlUy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+            <p>The game turned out well and I put in its battery so I could play it without having it connected to the computer, but the sensitivity is still very high so I calibrated the noise threshold values as well as the rise sensitivity and this is version 2 of the programming .</p>
+            <div class="video">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/EB-1x7l6Z0c?si=O-vUEL1FLljQyekW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+            <p>What I thought was achieved, all the files of this adventure you will find here, I hope that if you decide to do it you have as much fun as I did and it reminds you a little of the childhood that many of us put aside to give more time to our responsibilities</p>
+
+
+            <li>
+                <a class="button-download" target="_blank" href="../assigments/Archivos 8.zip">
+                Download Here
+              </a>
+            </li>
+            <p>See you next Week.</p>
+        
+        </div>
+    </div>
+
+
+        
+  
+
+
+
+
+
+
+    <div>
+      <div class="redes">
+        <h1>SOCIAL MEDIA</h1>
+      </div>
+    </div>
+    <div class="logos">
+      <a
+        href="https://www.linkedin.com/in/jos%C3%A9-alexis-del-%C3%A1guila-ramos-a05312157?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
+        target="_blank"
+        class="linkedin"
+      >
+        <i class="fa-brands fa-linkedin"></i>
+      </a>
+      <a
+        href="https://www.facebook.com/jose.delaguilaramos?mibextid=eQY6cl"
+        target="_blank"
+        class="facebook"
+      >
+        <i class="fa-brands fa-facebook"></i>
+      </a>
+      <a
+        href="https://gitlab.fabcloud.org/jose-aguila"
+        target="_blank"
+        class="gitlab"
+        ><i class="fa-brands fa-gitlab"></i
+      ></a>
+      <a
+        href="https://www.instagram.com/alexis_jose_17?igsh=MTgxbW5yNDVrZjd3dA%3D%3D&utm_source=qr"
+        target="_blank"
+        class="instagram"
+        ><i class="fa-brands fa-instagram"></i
+      ></a>
+    </div>
+    <footer class="anuncios">
+      <p>
+        Copyright 2024 Alexis del Aguila - Creative Commons Attribution Non
+        Commercial
+      </p>
+      <p>
+        Source code hosted at
+        <a
+          href="https://gitlab.fabcloud.org/academany/fabacademy/2024/labs/lima/students/hans-moncca"
+          >fabcloud/fabacademy/2024/jose-aguila</a
+        >
+      </p>
+    </footer>
+    <div>
+      <button id="btn-scroll-top" onclick="scrollToTop()">
+        <i class="fa-solid fa-arrow-up"></i>
+      </button>
+
+      <script>
+        window.onscroll = function () {
+          scrollFunction();
+        };
+
+        function scrollFunction() {
+          var btnScrollTop = document.getElementById("btn-scroll-top");
+          if (
+            document.body.scrollTop > 20 ||
+            document.documentElement.scrollTop > 20
+          ) {
+            btnScrollTop.style.display = "block";
+          } else {
+            btnScrollTop.style.display = "none";
+          }
+        }
+
+        function scrollToTop() {
+          document.body.scrollTop = 0;
+          document.documentElement.scrollTop = 0;
+        }
+      </script>
+    </div>
+
+    <script type = "module"  src = "https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"> </script>
+    <script  nomodule  src = "https://unpkg .com/ionicons@7.1.0/dist/ionicons/ionicons.js"> </script>
+    <script src="../assigments/assigment5.js"></script>
+  </body>
+</html>

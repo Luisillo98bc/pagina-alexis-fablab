@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ASSIGNMENT 9</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="assigment9.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.js"
+      integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link href="https://mydoup.com/css/design.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header>
+      
+      <a href="https://fablab.ucontinental.edu.pe/conocefablabuc/"><img src="img/logo fablab blanco-01.png" alt=""></a>
+     
+      <div id="links">
+          <a href="../index.html">HOME</a>
+          <a href="../about/about.html">ABOUT ME</a>
+          <a href="../index.html#separador1">ASSIGNMENTS</a>
+          <a href="../agreement/agreement.html">AGREEMENT</a>
+          <a href="../finalProject/final.html">FINAL PROJECT</a>
+          <ion-icon id="cerrar" name="close-outline"></ion-icon>
+      </div> 
+      <div id="mobile">
+          
+          <ion-icon id="bar" name="reorder-four-outline" ></ion-icon>
+          
+      </div>  
+      
+  </header>
+
+    <section class="encabezado">
+      <div class="caratula">
+          <div class="container-navigation-button">
+              <span class="btn-go" onclick="window.location.href='assigment8.html'">
+                  Previous week
+              </span>
+          
+              <span class="btn-go" onclick="window.location.href='assigment10.html'">
+                  Next week
+              </span>
+          </div>
+            <br>
+            <br>
+          <h1>WEEK 9</h1>
+          <h2>OUTPUT DEVICES</h2>
+      </div>
+  </section>
+    
+    <div class="main-container">
+        
+        <div class="parrafo">
+            <br />
+            
+            <h1><strong>Welcome to Week 9</strong></h1>
+            <h3><strong>Output Devices</strong></h3>
+            <p>Hey! now we will learn about Output Devices.</p>
+
+            <p>
+                Output devices are components that enable a system to interact with the external environment. Examples include engines, screens, LEDs, and more.
+            </p>
+            <p>
+                First of all, as a group work, we will use test equipment to measure the voltage and consumption of the electronic component that we will use for this part.
+            </p>
+            <img src="../assigments/img-9/imagen1.jpg" width="700" />
+            <p>Power is determined by multiplying the voltage across a component by the current passing through it:</p>
+            
+            <p class="formula">
+                P = I * V
+            </p>
+            <p>I used this formula to calculate the power flowing through a small DC electric motor, I connect the motor to a source, in  the image we can see that the voltage is: 4.8 Volts, and the current is 0.02A.</p>
+            <img src="../assigments/img-9/imagen2.jpg" width="700" />
+            
+            <p>
+                In order to have a more exact measurement of how much voltage was reaching the motor, I placed my multimeter and it read a voltage of 5.24v.
+            </p>
+            
+            <img src="../assigments/img-9/imagen3.jpg" width="700" />
+            
+            <p>
+                Now let's do tests with free movement and placing resistance on the motor.
+            </p>
+
+        
+            <div class="video">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/H8gbkrivwz0?si=q0ReniQ9F51bhSp6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                
+            </div>
+            <p>In the video, I = 0.07 is observed when the motor rotates freely and a maximum measurement of I = 0.16 when the motor shaft was prevented from moving.</p>
+            <p>Thus, we can calculate the power of the motor that consumes 5.24 x 0.07 = 0.37 watts in free movement and 0.83 watts with resistance of movement.</p>
+            <p>Ready! We learned about the power consumption of output devices……</p>
+            <p>It is time to experiment a little with these devices and the development board, for which we will do two experiments with the output devices that I will show you in the following image.</p>
+            <img src="../assigments/img-9/imagen4.jpg" width="700" />
+
+
+            <p>Let's hit it! first let's start with the servomotor….</p>
+            <img src="../assigments/img-9/imagen5.jpg" width="700" />
+
+            
+            <p>We upload a programming so you can make progressive turnles.</p>
+            <img src="../assigments/img-9/imagen6.png" width="700" />
+
+
+            <p>Let's see how this program works…</p>
+
+            <div class="video">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/k9KwQ3x_c9s?si=xCqVZOZ2CPucvbnv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                
+            </div>
+
+
+            <h4>Ok, now we continue with the OLED..</h4>
+            <img src="../assigments/img-9/imagen7.jpg" width="700" />
+
+
+
+            <p>We upload a program so that it shows us a phrase on the OLED</p>
+            <img src="../assigments/img-9/imagen8.png" width="700" />
+            <p>Let's see how this program works…</p>
+            
+            <div class="video">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/lKXFdbNj7Sk?si=-Uav08bOrYLzkp0x" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                
+            </div>
+
+            <p>Ready! That was all for today's assignment, see you next week with something crazy that comes to mind</p>
+
+            <p>See you next Week.</p>
+        
+        </div>
+    </div>
+
+    <div>
+      <div class="redes">
+        <h1>SOCIAL MEDIA</h1>
+      </div>
+    </div>
+    <div class="logos">
+      <a
+        href="https://www.linkedin.com/in/jos%C3%A9-alexis-del-%C3%A1guila-ramos-a05312157?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
+        target="_blank"
+        class="linkedin"
+      >
+        <i class="fa-brands fa-linkedin"></i>
+      </a>
+      <a
+        href="https://www.facebook.com/jose.delaguilaramos?mibextid=eQY6cl"
+        target="_blank"
+        class="facebook"
+      >
+        <i class="fa-brands fa-facebook"></i>
+      </a>
+      <a
+        href="https://gitlab.fabcloud.org/jose-aguila"
+        target="_blank"
+        class="gitlab"
+        ><i class="fa-brands fa-gitlab"></i
+      ></a>
+      <a
+        href="https://www.instagram.com/alexis_jose_17?igsh=MTgxbW5yNDVrZjd3dA%3D%3D&utm_source=qr"
+        target="_blank"
+        class="instagram"
+        ><i class="fa-brands fa-instagram"></i
+      ></a>
+    </div>
+    <footer class="anuncios">
+      <p>
+        Copyright 2024 Alexis del Aguila - Creative Commons Attribution Non
+        Commercial
+      </p>
+      <p>
+        Source code hosted at
+        <a
+          href="https://gitlab.fabcloud.org/academany/fabacademy/2024/labs/lima/students/hans-moncca"
+          >fabcloud/fabacademy/2024/jose-aguila</a
+        >
+      </p>
+    </footer>
+    <div>
+      <button id="btn-scroll-top" onclick="scrollToTop()">
+        <i class="fa-solid fa-arrow-up"></i>
+      </button>
+
+      <script>
+        window.onscroll = function () {
+          scrollFunction();
+        };
+
+        function scrollFunction() {
+          var btnScrollTop = document.getElementById("btn-scroll-top");
+          if (
+            document.body.scrollTop > 20 ||
+            document.documentElement.scrollTop > 20
+          ) {
+            btnScrollTop.style.display = "block";
+          } else {
+            btnScrollTop.style.display = "none";
+          }
+        }
+
+        function scrollToTop() {
+          document.body.scrollTop = 0;
+          document.documentElement.scrollTop = 0;
+        }
+      </script>
+    </div>
+
+    <script type = "module"  src = "https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"> </script>
+    <script  nomodule  src = "https://unpkg .com/ionicons@7.1.0/dist/ionicons/ionicons.js"> </script>
+    <script src="../assigments/assigment5.js"></script>
+  </body>
+</html>

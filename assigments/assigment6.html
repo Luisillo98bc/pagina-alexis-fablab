@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ASSIGNMENT 6</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="assigment6.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.js"
+      integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link href="https://mydoup.com/css/design.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header>
+      
+      <a href="https://fablab.ucontinental.edu.pe/conocefablabuc/"><img src="img/logo fablab blanco-01.png" alt=""></a>
+     
+      <div id="links">
+          <a href="../index.html">HOME</a>
+          <a href="../about/about.html">ABOUT ME</a>
+          <a href="../index.html#separador1">ASSIGNMENTS</a>
+          <a href="../agreement/agreement.html">AGREEMENT</a>
+          <a href="../finalProject/final.html">FINAL PROJECT</a>
+          <ion-icon id="cerrar" name="close-outline"></ion-icon>
+      </div> 
+      <div id="mobile">
+          
+          <ion-icon id="bar" name="reorder-four-outline" ></ion-icon>
+          
+      </div>  
+      
+  </header>
+  <section class="encabezado">
+    <div class="caratula">
+        <div class="container-navigation-button">
+            <span class="btn-go" onclick="window.location.href='assigment5.html'">
+                Previous week
+            </span>
+        
+            <span class="btn-go" onclick="window.location.href='assigment7.html'">
+                Next week
+            </span>
+        </div>
+          <br>
+          <br>
+        <h1>WEEK 6</h1>
+        <h2>Embedded programming</h2>
+    </div>
+</section>
+    
+    <div class="main-container">
+        
+        <div class="parrafo">
+          <br />
+          <br />
+          <br />
+          <h1><strong>Welcome to Week 6</strong></h1>
+          <h3><strong>Embedded programming</strong></h3>
+          <p>Greetings! Today, we'll delve into embedded programming, focusing on exploring the Seeeduino XIAO RP2040 microcontroller. Let's get started!</p>
+          <p>For the FAB ACADEMY 2024, we were advised to use the SEEED STUDIO XIAO RP2040, which will assist us in executing all our task programming as well as our final project. It's a highly potent microcontroller known for its versatility, enabling us to program effectively due to its outstanding features.</p>
+        <br>
+        <br>
+        <h3><strong>Seeeduino XIAO RP2040:</strong></h3>
+        <p>The Seeed XIAO RP2040 is a powerful microcontroller known for its versatility and features. Some of its key features include:</p>
+        <div class="table-container">
+            <table>
+              <tr>
+                <th>Small Form Factor</th>
+                <th>The XIAO RP2040 comes in a compact form factor, making it suitable for projects with space constraints or wearable applications</th>
+              </tr>
+              <tr>
+                <td>USB Connectivity</td>
+                <td>The microcontroller includes USB connectivity for programming and data transfer, enabling easy integration with computers and other devices.</td>
+              </tr>
+              <tr>
+                <td>Programmability</td>
+                <td>It can be programmed using the Arduino IDE, MicroPython, or CircuitPython, providing flexibility and ease of development.</td>
+              </tr>
+              <tr>
+                <td>Low Power Consumption</td>
+                <td>The RP2040 chip is designed for low power consumption, making it suitable for battery-powered applications.</td>
+              </tr>
+              <tr>
+                <td>Integrated Peripherals</td>
+                <td>It features integrated peripherals such as SPI, I2C, UART, PWM, and ADC, expanding its capabilities for various projects</td>
+              </tr>
+              <tr>
+                <td>Affordablen</td>
+                <td>The XIAO RP2040 is relatively affordable compared to other microcontrollers with similar capabilities, making it accessible to hobbyists, students, and professionals alike</td>
+              </tr>
+            </table>
+  
+            <img src="img_6/Assig6-1.png" width="200" height="200"/><br />
+          </div> 
+          <br>
+          <br>
+          <p>These features make the Seeed XIAO RP2040 a popular choice for a wide range of embedded projects and applications.</p>
+          <p>The simplified pinout for the Seeed Studio XIAO RP2040 microcontroller is:</p>
+          <ul>
+            <li>3V3: 3.3V power output</li>
+            <li>Earth Earth</li>
+            <li>A0-A7: analog input pins</li>
+
+            <li>D0-D23: Digital I/O Pins</li>
+            <li>TX, RX: UART communication pins</li>
+            <li>SCL, SDA: I2C communication pins</li>
+            <li>SCK, MISO, MOSI, SS: SPI communication pins</li>
+            <li>DAC0, DAC1: digital-to-analog converter output pins</li>
+            <li>PWM0-PWM6: pulse width modulation pins</li>
+            <li>USB: USB communication and power input</li>
+            <li>VBUS, VBAT: battery input pins</li>
+            <li>SWDIO, SWCLK: serial cable debugging pins.</li>
+          </ul>
+          <img src="img_6/Assig6-2.png" width="700" /><br />
+          <br>
+          <h3>Conclusions</h3>
+          <p>The Seeed Studio XIAO RP2040 is a versatile and powerful microcontroller that offers numerous features and capabilities. Its compact form factor, combined with the RP2040 microcontroller's dual-core ARM Cortex-M0+ processor, makes it suitable for a wide range of embedded projects and applications.</p>
+          <p>One of the key strengths of the XIAO RP2040 is its flexibility in programming, as it can be programmed using various development environments such as Arduino IDE, MicroPython, or CircuitPython. This flexibility makes it accessible to both beginners and experienced developers.</p>
+          <p>The XIAO RP2040 also offers a rich set of integrated peripherals, including GPIO pins, USB connectivity, analog inputs, UART, SPI, I2C, PWM, and DAC outputs, providing ample options for interfacing with sensors, actuators, and other external components.</p>
+          <p>Moreover, its low power consumption and affordability further enhance its appeal for projects requiring battery-powered operation or budget constraints.</p>
+<p>In conclusion, the Seeed Studio XIAO RP2040 microcontroller stands out as a reliable and versatile choice for makers, hobbyists, students, and professionals looking to develop innovative embedded systems and IoT applications.</p>
+<p>We already know about the SEEED XIAO RP2040, now let's start doing some programming exercises, let's get to work.</p>
+<img src="img_6/Assig6-3.png" width="700" /><br />
+<img src="img_6/Assig6-4.png" width="700" /><br />
+<p>This is part of my circuit from my previously manufactured seeed xiao shield, place an LED on my shield, which is connected to pin D6. This is the one we will use for the first programming exercise.</p>
+<p>Prior to uploading the code, we need to establish communication between our microcontroller and our PC. To do so, we should follow these steps:</p>
+ <p>  1. Visit the Seeed Studio webpage.</p>
+ <p>  2. Install the Seeeduino libraries for Raspberry Pi Pico/RP2040.</p>
+<p>The information available on the Seeed Studio webpage is comprehensive and detailed. However, for clarity and convenience, I will provide a summary of the installation steps. (It's always advisable to maintain clear information by attributing authorship and the information source.)</p>
+<p>Once the library is installed, we can proceed to program our Seeed XIAO.</p>
+<img src="img_6/Assig6-5.png" width="700" /><br />
+<p>I made a code to test our Seeed XIAO:</p>
+
+<pre class="language">
+  <code>
+    int LED = D6;
+void setup() {
+  
+  pinMode(LED, OUTPUT);
+}
+
+void loop() {
+  digitalWrite(LED, HIGH);  
+  delay(1000);                   
+  digitalWrite(LED, LOW);  
+  delay(1000);                    
+}
+
+  </code>
+</pre>
+<p>We can see that the LED of pin D6 is FLASHING as per the data mentioned in the program.</p>
+<div class="video">
+  <iframe width="640" height="360" src="https://www.youtube.com/embed/Ij2VlWkt-Ow" title="Fab Academy - Blink Led" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>   
+</div>
+<p>It was great but it was simple, let's go up a little bit this time let's do some programming but getting readings for it we will use an ultrasound sensor. </p>
+<img src="img_6/Assig6-6.png" width="700" /><br />
+<p>I made a code to test our Seeed XIAO:</p>
+<pre class="language">
+  <code>
+    const int trigPin = D0; // Output pin of the ultrasonic sensor 
+  const int echoPin = D1; // Input pin of the ultrasonic sensor
+  long duration;
+  int distance;
+
+  void setup() {
+     
+     pinMode(trigPin, OUTPUT);
+     pinMode(echoPin, INPUT);
+
+     Serial.begin(9600);
+     } 
+  
+  void loop() {
+
+    digitalWrite(trigPin, LOW); 
+    delayMicroseconds(2); 
+    digitalWrite(trigPin, HIGH);
+    delayMicroseconds(10);
+    digitalWrite(trigPin, LOW);
+
+    duration = pulseIn(echoPin, HIGH);
+    distance = duration * 0.034 / 2;
+    Serial.print("Distance: "); 
+    Serial.print(distance);
+    Serial.println(" cm");
+    delay(1000); 
+    
+    }
+
+
+  </code>
+</pre>
+<div class="video">
+  <iframe width="700" height="360" src="https://www.youtube.com/embed/4WISa1cx7GM" title="Fab Academy 2024 - Ultrasound Sensor" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>      
+ </div>
+ <p>It was good, we learned to obtain distance readings through this sensor, it is time to draw power through our shield and apply the output with a servomotor.</p>
+ <img src="img_6/Assig6-7.jpg" width="700" /><br />
+ <img src="img_6/Assig6-8.png" width="700" /><br />
+<p>
+  I made a code to test our Seeed XIAO:
+</p>
+<pre class="language">
+  <code>
+    #include <Servo.h>
+    #include <servo.pio.h>
+      Servo myServo; 
+      
+      const int servoPin = D1;
+      
+      void setup() {
+      
+        myServo.attach(servoPin);
+      
+      }
+      
+      void loop() {
+      
+        for (int angle = 0; angle <= 180; angle += 1){ 
+          myServo.write(angle); delay(15);
+         }
+      
+         delay(1000);
+      
+         for (int angle = 180; angle >= 0; angle -= 1) { 
+          myServo.write(angle); delay(15); 
+          } 
+          delay(1000); // Wait for a second } 
+      
+  </code>
+</pre>
+<div class="video">
+  <iframe width="700" height="360" src="https://www.youtube.com/embed/1THfsH0DdBg" title="Fab Academy 2024 - Servo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>  
+ </div>
+ <p>See you next week. </p>
+
+  
+    </div>
+
+      </div>
+    </div>
+
+    <div>
+      <div class="redes">
+        <h1>SOCIAL MEDIA</h1>
+      </div>
+    </div>
+    <div class="logos">
+      <a
+        href="https://www.linkedin.com/in/jos%C3%A9-alexis-del-%C3%A1guila-ramos-a05312157?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
+        target="_blank"
+        class="linkedin"
+      >
+        <i class="fa-brands fa-linkedin"></i>
+      </a>
+      <a
+        href="https://www.facebook.com/jose.delaguilaramos?mibextid=eQY6cl"
+        target="_blank"
+        class="facebook"
+      >
+        <i class="fa-brands fa-facebook"></i>
+      </a>
+      <a
+        href="https://gitlab.fabcloud.org/jose-aguila"
+        target="_blank"
+        class="gitlab"
+        ><i class="fa-brands fa-gitlab"></i
+      ></a>
+      <a
+        href="https://www.instagram.com/alexis_jose_17?igsh=MTgxbW5yNDVrZjd3dA%3D%3D&utm_source=qr"
+        target="_blank"
+        class="instagram"
+        ><i class="fa-brands fa-instagram"></i
+      ></a>
+    </div>
+    <footer class="anuncios">
+      <p>
+        Copyright 2024 Alexis del Aguila - Creative Commons Attribution Non
+        Commercial
+      </p>
+      <p>
+        Source code hosted at
+        <a
+          href="https://gitlab.fabcloud.org/academany/fabacademy/2024/labs/lima/students/hans-moncca"
+          >fabcloud/fabacademy/2024/jose-aguila</a
+        >
+      </p>
+    </footer>
+    <div>
+      <button id="btn-scroll-top" onclick="scrollToTop()">
+        <i class="fa-solid fa-arrow-up"></i>
+      </button>
+
+      <script>
+        window.onscroll = function () {
+          scrollFunction();
+        };
+
+        function scrollFunction() {
+          var btnScrollTop = document.getElementById("btn-scroll-top");
+          if (
+            document.body.scrollTop > 20 ||
+            document.documentElement.scrollTop > 20
+          ) {
+            btnScrollTop.style.display = "block";
+          } else {
+            btnScrollTop.style.display = "none";
+          }
+        }
+
+        function scrollToTop() {
+          document.body.scrollTop = 0;
+          document.documentElement.scrollTop = 0;
+        }
+     
+  document.addEventListener('DOMContentLoaded', (event) => {
+    document.querySelectorAll('pre code').forEach((block) => {
+      hljs.highlightBlock(block);
+    });
+  });
+      </script>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.2.0/highlight.min.js"></script>
+
+
+    <script type = "module"  src = "https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"> </script>
+    <script  nomodule  src = "https://unpkg .com/ionicons@7.1.0/dist/ionicons/ionicons.js"> </script>
+    <script src="../assigments/assigment1.js"></script>
+  </body>
+</html>

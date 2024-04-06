@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ASSIGNMENT 7</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="assigment7.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.js"
+      integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link href="https://mydoup.com/css/design.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header>
+      
+      <a href="https://fablab.ucontinental.edu.pe/conocefablabuc/"><img src="img/logo fablab blanco-01.png" alt=""></a>
+     
+      <div id="links">
+          <a href="../index.html">HOME</a>
+          <a href="../about/about.html">ABOUT ME</a>
+          <a href="../index.html#separador1">ASSIGNMENTS</a>
+          <a href="../agreement/agreement.html">AGREEMENT</a>
+          <a href="../finalProject/final.html">FINAL PROJECT</a>
+          <ion-icon id="cerrar" name="close-outline"></ion-icon>
+      </div> 
+      <div id="mobile">
+          
+          <ion-icon id="bar" name="reorder-four-outline" ></ion-icon>
+          
+      </div>  
+      
+  </header>
+  <section class="encabezado">
+    <div class="caratula">
+        <div class="container-navigation-button">
+            <span class="btn-go" onclick="window.location.href='assigment6.html'">
+                Previous week
+            </span>
+        
+            <span class="btn-go" onclick="window.location.href='assigment8.html'">
+                Next week
+            </span>
+        </div>
+          <br>
+          <br>
+        <h1>WEEK 7</h1>
+        <h2>COMPUTER CONTROLLED MACHINING</h2>
+    </div>
+</section>
+    
+    <div class="main-container">
+        
+        <div class="parrafo">
+          <br />
+          <br />
+          <br />
+          <h1><strong>Welcome to Week 7</strong></h1>
+          <h3><strong>Computer Controlled Machining</strong></h3>
+          <p>Hey! now we will learn about Computer controlled machining.</p>
+          <p>The machine we have at Continental University is the SHOPBOT PR ALPHA MODEL 120 – 60 that we will use for this week's work. Below are some specifications of the machine:</p>
+        <br>
+        <br>
+        
+        <div class="table-container">
+            <table>
+              <tr>
+                <th>CUT / MOVEMENT AREA:</th>
+                <th>129” x 61” x 8”s</th>
+              </tr>
+              <tr>
+                <td>XY POSITIONING SPEED:</td>
+                <td>Variable, max. 1800”/min.</td>
+              </tr>
+              <tr>
+                <td>Z POSITIONING SPEED:</td>
+                <td>Variable, max. 900”/min.</td>
+              </tr>
+              <tr>
+                <td>LINEAR CUTTING FORCE:</td>
+                <td>Approximately 150 lbs.</td>
+              </tr>
+              <tr>
+                <td>INPUT VOLTAGE:</td>
+                <td>220v single-phase, 230v 3-phase and 380/460V 3-phase power options are available</td>
+              </tr>
+              
+            </table>
+  
+            <img src="./img-7/imag1.jpg" width="330" height="400"/><br />
+          </div> 
+          <br>
+          <br>
+          <p>We prepare our security team to be able to comply with security aspects and be able to start working.</p>
+          
+          <img src="./img-7/imag2.jpg" width="700" /><br />
+          <br>
+          
+          <p>The implements we have for the CNC machine are 1/4", 1/8" and 5/8" cutters along with their ER25 collets and a cutter that comes with the SHOPBOT. For our group and individual work we will use the 1/4".</p>
+          <img src="./img-7/imag3.jpg" width="700" /><br />
+          
+<p>Well now let's open the Vcarve pro program and make some initial configurations such as the calibration in x, y as well as the calibration in z.</p>
+<p>When you open the program, 2 windows will appear. The POSITION is where we perform the calibration, movement and start or stop control of the machine. The second window is COMMAND CONSOLE where we can open the trajectories, warm up the machine and, if it is the first time we use it, its configuration.</p>
+<img src="./img-7/imag4.jpg"" width="700" /><br />
+
+<p>To calibrate the Z axis, we have to click on the Z button in the Position window. Before calibrating, we have to place the hook on the SPLINDER and the metal plate on the material, so that the machine can be calibrated.</p>
+
+<img src="./img-7/imag5.jpg" width="700" /><br />
+<p>From this point onward, the machine will exclusively focus on calibrating its Z-axis before initiating its operations. Below is a video demonstrating the calibration process in action.</p>
+
+<div class="video">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/7jgtV128zuk?si=3NbGYuuCv9bM-g9K" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+
+<p>Now yes! let's do some tests to find the tolerances just like we did with the laser cutting.</p>
+<p>The initial test we conduct is the HEX COMB, aimed at identifying the optimal fit. Throughout all our tests, we'll utilize 15mm PLYWOOD, consistent with the material we'll employ in our individual project.</p>
+<p>First, what we did was make the drawing in AUTOCAD taking into account the thickness of the material, which is 15 mm, and we gave each section a value of +0.25 mm to see which measurement was appropriate for a correct fit.</p>
+<img src="./img-7/imag6.png" width="700" /><br />
+
+ <p>Now with the design we proceed to transfer it to the Vcarve Pro and cut it.</p>
+ <img src="./img-7/imag6.jpg" width="700" /><br />
+ <img src="./img-7/imag7.jpg" width="700" /><br />
+<p>
+    We open the shopbot program and proceed to upload the file to spawn
+</p>
+<img src="./img-7/imag8.jpg" width="700" /><br />
+<p>Push open and start, let's see the process : </p>
+
+
+<div class="video">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/2WHoOQB2lVA?si=dc2eAtPdbgrOVjzV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+ </div>
+
+
+<p>After cutting both hex comb, we can analyze and verify that the best joint for joints that are like this is for the cuts to have +0.75mm of the thickness of the material. In this case, for the 15 mm material the ideal cut would be 15.75 mm for a better fit of the pieces</p>
+<img src="./img-7/imag9.jpg" width="700" /><br />
+<img src="./img-7/imag10.jpg" width="700" /><br />
+<h3>It looked great, let's move on to the next test…</h3>
+<p>The subsequent test involves the evaluation of the dog bone and hole configurations. The objective of this test is to determine the optimal sizes required for the pieces to fit precisely within the holes. The dog bone test facilitates easy insertion of the pieces while ensuring that corners pose no issues, particularly with the female pieces. Conversely, the hole test helps determine the appropriate size for the female piece to accommodate the male piece smoothly without causing damage to the material.</p>
+<img src="./img-7/imag11.png" width="700" /><br />
+<p>To shape the dog bone, we can utilize VCarve Pro after designing the pieces. Upon importing the design, we navigate to the "Create Chanfle" button to implement the necessary shaping.</p>
+<img src="./img-7/imag12.png" width="700" /><br />
+<img src="./img-7/imag13.png" width="700" /><br />
+<img src="./img-7/imag13.png" width="700" /><br />
+<p>Now we give you the cutting path to start with the crop.</p>
+<img src="./img-7/imag14.png" width="700" /><br />
+<img src="./img-7/imag15.png" width="700" /><br />
+<p>Let's see the process</p>
+
+<div class="video">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/crBtGnoFhwo?si=qXc1AaoGkUEywnBo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+
+<p>We can see that the MALE piece easily fits into the +0.40mm hole, that is, if the piece has a thickness of 15 mm, we need the female piece to have a hole of +0.75mm, in this case 15.75mm.</p>
+
+ 
+ <img src="./img-7/imag16.jpg" width="700" /><br />
+ <img src="./img-7/imag17.jpg" width="700" /><br />
+
+ <h3>Ready now let's put together something big and cool</h3>
+ <p>I decided to make a piece of furniture where they can sit but that also has additional functionality to hold some things like tools or books at the bottom. An animal came to mind which is quite robust, a rhinoceros.</p> 
+<h4>Let's start the design in AutoCad.</h4>
+
+<img src="./img-7/imag18.png" width="700" /><br />
+<p>I've chosen to create a small-scale model of my selected proposal using 3mm MDF. This material was selected based on our previous work in the 3rd week to analyze potential stability issues and assess whether any design improvements are necessary.</p>
+<img src="./img-7/imag19.jpg" width="700" /><br />
+<img src="./img-7/imag20.jpg" width="700" /><br />
+<p>After analyzing and correcting the errors obtained in the model, I decided to start machining the parts, also importing into VCARVE PRO, I started selecting the female holes of the parts, by the way I changed the size of the holes with the appropriate measurements mentioned in the tests.</p>
+<img src="./img-7/imag21.png" width="700" /><br />
+<img src="./img-7/imag22.png" width="700" /><br />
+<h4>Let's see the process…</h4>
+
+<div class="video">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/x1pEpN1a2P0?si=O6FVVdC1DAFicVcF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+
+ <p>After cutting all the pieces, I began to assemble them and at first it was difficult because of the joints, because there was slight movement when pushing the piece into the socket. All the pieces went in without complications.</p>
+ <img src="./img-7/imag23.jpg" width="700" /><br />
+<img src="./img-7/imag24.jpg" width="700" /><br />
+<p>The final result turned out very well. The truth is that I really like the shape, I was amazed at how wonderful it is to go from a small scale to a large one.</p>
+<img src="./img-7/imag25.jpg" width="700" /><br />
+<img src="./img-7/imag26.jpg" width="700" /><br />
+<h4>Now let's test its resistance….</h4>
+<img src="./img-7/imag27.jpg" width="700" /><br />
+
+
+<li>
+  <a class="button-download" target="_blank" href="../assigments/Archivos 7.zip">
+  Download Here
+</a>
+</li>
+
+
+
+
+<p>That was all, I leave the files of this adventure here and see you next week….</p>
+
+    <div>
+      <div class="redes">
+        <h1>SOCIAL MEDIA</h1>
+      </div>
+    </div>
+    <div class="logos">
+      <a
+        href="https://www.linkedin.com/in/jos%C3%A9-alexis-del-%C3%A1guila-ramos-a05312157?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
+        target="_blank"
+        class="linkedin"
+      >
+        <i class="fa-brands fa-linkedin"></i>
+      </a>
+      <a
+        href="https://www.facebook.com/jose.delaguilaramos?mibextid=eQY6cl"
+        target="_blank"
+        class="facebook"
+      >
+        <i class="fa-brands fa-facebook"></i>
+      </a>
+      <a
+        href="https://gitlab.fabcloud.org/jose-aguila"
+        target="_blank"
+        class="gitlab"
+        ><i class="fa-brands fa-gitlab"></i
+      ></a>
+      <a
+        href="https://www.instagram.com/alexis_jose_17?igsh=MTgxbW5yNDVrZjd3dA%3D%3D&utm_source=qr"
+        target="_blank"
+        class="instagram"
+        ><i class="fa-brands fa-instagram"></i
+      ></a>
+    </div>
+    <footer class="anuncios">
+      <p>
+        Copyright 2024 Alexis del Aguila - Creative Commons Attribution Non
+        Commercial
+      </p>
+      <p>
+        Source code hosted at
+        <a
+          href="https://gitlab.fabcloud.org/academany/fabacademy/2024/labs/lima/students/hans-moncca"
+          >fabcloud/fabacademy/2024/jose-aguila</a
+        >
+      </p>
+    </footer>
+    <div>
+      <button id="btn-scroll-top" onclick="scrollToTop()">
+        <i class="fa-solid fa-arrow-up"></i>
+      </button>
+
+      <script>
+        window.onscroll = function () {
+          scrollFunction();
+        };
+
+        function scrollFunction() {
+          var btnScrollTop = document.getElementById("btn-scroll-top");
+          if (
+            document.body.scrollTop > 20 ||
+            document.documentElement.scrollTop > 20
+          ) {
+            btnScrollTop.style.display = "block";
+          } else {
+            btnScrollTop.style.display = "none";
+          }
+        }
+
+        function scrollToTop() {
+          document.body.scrollTop = 0;
+          document.documentElement.scrollTop = 0;
+        }
+     
+  document.addEventListener('DOMContentLoaded', (event) => {
+    document.querySelectorAll('pre code').forEach((block) => {
+      hljs.highlightBlock(block);
+    });
+  });
+      </script>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.2.0/highlight.min.js"></script>
+
+
+    <script type = "module"  src = "https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"> </script>
+    <script  nomodule  src = "https://unpkg .com/ionicons@7.1.0/dist/ionicons/ionicons.js"> </script>
+    <script src="../assigments/assigment1.js"></script>
+  </body>
+</html>
